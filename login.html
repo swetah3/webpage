@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> my first login page</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body bgcolor="grey"> 
+        <form class="login" method="post">
+            <h1 class="page">User Login</h1>
+           <input type="text"  class="page-main" placeholder="email"/>
+           <input type="password"  class="page-main" placeholder="password"/>
+           <input type="submit" class="page-login" value="login"/>
+           <p class="error"><a href="">forget password</a></p>
+        </form>
+       
+    
+
+    </body>
+</html>
+css
+.login
+{
+    margin:30px auto ;
+    width:300px;
+    padding:30px 20px;
+    background:white;
+    border:1px black;
+    }
+   
+    
+    h1.page{
+    margin:-10px -15px 25px;
+    padding:10px 25px;
+    line-height:30px;
+    font-size:25px;
+    font-weight: 200;
+    color:black;
+    text-align:center;
+    background:white;
+    }
+    
+    
+    .page-main{
+        width:250px;
+        height:50px;
+        margin-bottom:20px ;
+    font-size:10px;
+    padding-left:5px;
+    background:white;
+        border:1px solid black;
+        border-radius:4px;
+
+       
+        
+    }
+    .page-main:focus{
+       border-color:black;
+       border-radius: 4px;}
+    .page-login{
+        width:100px;
+        height:50px;
+        font:30px;
+        color:black;
+        text-align:center;
+        background:white;
+        
+    }
+        
+    .error{text-align:center; 
+           margin-bottom:0px;
+        
+    }
+    .error a{
+        color:grey;
+        font-size: 10px;
+    }
+
